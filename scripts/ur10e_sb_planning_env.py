@@ -13,6 +13,7 @@ MAX_EPISODE_STEPS_BOX_PUSHING = 100
 
 BOX_POS_BOUND = np.array([[0.3, -0.45, -0.01], [0.6, 0.45, -0.01]])
 
+
 class BoxPushingEnvBase(MujocoEnv, utils.EzPickle):
     """
     franka box pushing environment
